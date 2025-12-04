@@ -124,6 +124,29 @@ aws secretsmanager get-secret-value --secret-id sftp-users --region us-east-1
 ./manage_users.sh add newuser newpassword
 ```
 
+## Current Users
+
+The following users are configured on the SFTP server:
+
+| Username | Password | Home Directory |
+|----------|----------|----------------|
+| `shivang-sftp` | `password` | `/sftp-tcm-sunflower/shivang-sftp` |
+| `lenity-cn` | `LenitySftp2025` | `/sftp-tcm-sunflower/lenity-cn` |
+| `shivam-aima` | `486767831` | `/sftp-tcm-sunflower` |
+| `anugya-kanswal` | `695813497` | `/sftp-tcm-sunflower` |
+
+**Server Endpoint:**
+```
+s-8a3bf9037eef44828.server.transfer.us-east-1.amazonaws.com
+```
+
+**Connection Example:**
+```bash
+sftp shivang-sftp@s-8a3bf9037eef44828.server.transfer.us-east-1.amazonaws.com
+```
+
+> **Note:** All users share access to the same S3 bucket (`sftp-tcm-sunflower`). Some users have user-specific home directories while others share the base directory.
+
 ## Advanced Configuration
 
 ### Using DynamoDB
