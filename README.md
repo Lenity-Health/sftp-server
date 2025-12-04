@@ -130,10 +130,10 @@ The following users are configured on the SFTP server:
 
 | Username | Password | Home Directory |
 |----------|----------|----------------|
-| `shivang-sftp` | `password` | `/sftp-tcm-sunflower/shivang-sftp` |
-| `lenity-cn` | `LenitySftp2025` | `/sftp-tcm-sunflower/lenity-cn` |
-| `shivam-aima` | `486767831` | `/sftp-tcm-sunflower` |
-| `anugya-kanswal` | `695813497` | `/sftp-tcm-sunflower` |
+| `shivang-sftp` | `password` | `/sftp-tcm-sunflower` |
+| `lenity-cn` | `LenitySftp2025` | `/sftp-tcm-sunflower` |
+| `shivam-aima` | `7mCi6jXXF` | `/sftp-tcm-sunflower` |
+| `anugya-kanswal` | `LNUsIpqij` | `/sftp-tcm-sunflower` |
 
 **Server Endpoint:**
 ```
@@ -145,7 +145,7 @@ s-8a3bf9037eef44828.server.transfer.us-east-1.amazonaws.com
 sftp shivang-sftp@s-8a3bf9037eef44828.server.transfer.us-east-1.amazonaws.com
 ```
 
-> **Note:** All users share access to the same S3 bucket (`sftp-tcm-sunflower`). Some users have user-specific home directories while others share the base directory.
+> **Note:** All users share access to the same S3 bucket (`sftp-tcm-sunflower`) and use the same home directory.
 
 ## Advanced Configuration
 
